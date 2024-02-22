@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-page {
+  background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
+}
+
+.main-page-text-container {
+  border-radius: 40px;
+  background: #fff;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.main-page-button {
+  background: #ff6b0a;
+  border: none;
+  color: #fff;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.main-logo-img {
+  padding-top: 32px;
+  padding-right: 1165px;
+  padding-left: 95px;
+  padding-bottom: 60px;
+}
+
+.logo {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+.main-page-text-hello {
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.main-page-text-title {
+  color: #1b1d1f;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 112%;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.main-page-text-description {
+  color: #1b1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.gus-facts {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 100px;
+}
+
+.gus-facts-descr {
+  color: #1b1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  width: 772px;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.gus-facts-title {
+  color: #1b1d1f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.gus-facts-item {
+width: 374px;
+height: 510px;
+}
+
+.gus-facts-item-title {
+color: #1b1d1f;
+text-align: center;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+margin-top: 8px;
+margin-bottom: 32px;
+}
+
+.gus-facts-item-descr {
+color: #1b1d1f;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+margin: 0;
+}
