@@ -108,29 +108,116 @@ body {
 }
 
 .gus-facts-item {
-width: 374px;
-height: 510px;
+  width: 374px;
+  height: 510px;
 }
 
 .gus-facts-item-title {
-color: #1b1d1f;
-text-align: center;
-font-weight: 600;
-font-size: 24px;
-line-height: 100%;
-margin-top: 8px;
-margin-bottom: 32px;
+  color: #1b1d1f;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 .gus-facts-item-descr {
-color: #1b1d1f;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-margin: 0;
+  color: #1b1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0;
 }
 
 .form-page {
-    
+  background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.form {
+  background: #fff;
+  border-radius: 40px;
+  width: 573px;
+  padding-top: 32px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+.form-title {
+  color: #1b1d1f;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.form-descr {
+  color: #1b1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+
+.form-input {
+  background: #fff;
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  width: 453px;
+  height: 60px;
+  color: #1b1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.form-label {
+  color: #1b1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 14px;
+}
+
+.form-field {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.form-button {
+  background: #ff6b0a;
+  border: none;
+  color: #fff;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+  margin-top: 48px;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
 }

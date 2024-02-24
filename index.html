@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
+
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -27,7 +30,7 @@
                         підтримую
                         позитивний дух народу. Слава Україні!</p>
 
-                    <button class="main-page-button">
+                    <button class="main-page-button" id="go-to-form-btn">
                         Запустити гуся
                     </button>
                 </div>
@@ -49,23 +52,47 @@
                     етапі збірки</p>
             </div>
             <div class="gus-facts-item">
-                <img src="img/gus2.svg" alt="gus fact 1">
+                <img src="img/gus2.svg" alt="gus fact 2">
                 <h3 class="gus-facts-item-title">Очі-тепловізори</h3>
-                <p class="gus-facts-item-descr">Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p>
+                <p class="gus-facts-item-descr">Допомагають виявити характер сигнатури об’єктів та значно підвищують
+                    точність удару</p>
             </div>
             <div class="gus-facts-item">
-                <img src="img/gus3.svg" alt="gus fact 1">
+                <img src="img/gus3.svg" alt="gus fact 3">
                 <h3 class="gus-facts-item-title">Байракрила</h3>
-                <p class="gus-facts-item-descr">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі» кілометрів</p>
+                <p class="gus-facts-item-descr">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна
+                    собі» кілометрів</p>
             </div>
 
         </div>
 
     </div>
     <div class="form-page">
+        <form action="#" class="form" netlify id="form">
+            <img src="img/trezub.svg" alt="tryzub">
+            <h4 class="form-title">Поділися, будь ласка, поштою</h4>
+            <p class="form-descr">та запиши гуся до бандерозагону</p>
 
-        
+            <div class="form-field">
+                <label class="form-label" for="user-name">Ім'я</label>
+                <input type="text" class="form-input" id="user-name" name="Ім'я користувача">
+            </div>
+
+            <div class="form-field">
+                <label class="form-label" for="user-email">Email</label>
+                <input type="email" class="form-input" id="user-email" name="Email користувача">
+            </div>
+
+<button class="form-button" id="launch-btn">Запустити гуся</button>
+
+
+        </form>
+
+
     </div>
+
+
+    <script src="js/form.js"></script>
 </body>
 
 </html>
